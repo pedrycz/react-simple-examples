@@ -66,7 +66,7 @@ class App extends React.Component {
 				</ul>
 				Content:
 				<ReactRouter.Match exactly pattern={"/"} component={Index}/>
-                <ReactRouter.Match exactly pattern={"/page1"} component={Page1}/>
+				<ReactRouter.Match exactly pattern={"/page1"} component={Page1}/>
 				<ReactRouter.Match exactly pattern={"/page2"} component={Page2}/>
 				<ReactRouter.Miss component={Error404}/>
 			</ReactRouter.BrowserRouter>
